@@ -1,0 +1,105 @@
+/*Author: Swainson Holness*/
+
+/*Element for testing*/
+/*============================*/
+.box {
+    height: 140PX;
+    width: 140PX;
+    margin-top: 50PX;
+    margin-left: 00PX;
+    background-color: red;
+}
+
+.button {
+    margin-top: 50px;
+}
+/*============================*/
+
+/*wave-fx code*/
+.wave-fx {
+    overflow: hidden;
+    position: relative;
+    display: block
+}
+
+.fab {
+    background-color: white;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    overflow: hidden;
+    -webkit-animation: ripple-animate 3s;
+    -moz-animation: ripple-animate 3s;
+    -o-animation: ripple-animate 3s;
+    -ms-animation: ripple-animate 3s;
+    animation: ripple-animate 3s;
+    -webkit-animation-fill-mode: forwards;
+    /*Chrome 16+, Safari 4+*/
+    -moz-animation-fill-mode: forwards;
+    /*FF 5+*/
+    -o-animation-fill-mode: forwards;
+    /*Not implemented yet*/
+    -ms-animation-fill-mode: forwards;
+    /*IE 10+*/
+    animation-fill-mode: forwards;
+    /*when the spec is finished*/
+}
+
+
+@keyframes ripple-animate {
+    from {
+        transform: scale(1);
+        opacity: 0.35;
+    }
+    to {
+        transform: scale(100);
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes ripple-animate {
+    from {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity: 0.35;
+    }
+    to {
+        -webkit-transform: scale(100);
+        transform: scale(100);
+        opacity: 0;
+    }
+}
+
+@-moz-keyframes ripple-animate {
+    from {
+        transform: scale(1);
+        opacity: 0.35;
+    }
+    to {
+        transform: scale(100);
+        opacity: 0;
+    }
+}
+
+@-o-keyframes ripple-animate {
+    from {
+        transform: scale(1);
+        opacity: 0.35;
+    }
+    to {
+        transform: scale(100);
+        opacity: 0;
+    }
+}
+
+@-ms-keyframes ripple-animate {
+    from {
+        transform: scale(1);
+        opacity: 0.35;
+    }
+    to {
+        transform: scale(100);
+        opacity: 0;
+    }
+}
