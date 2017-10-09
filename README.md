@@ -1,2 +1,5 @@
-# Materialize-ripple-effect
-replicating google material design ripple effect
+# Materialize Design Library
+
+Material design library 
+
+Author - Swainson Holness
