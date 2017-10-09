@@ -1,20 +1,5 @@
 /*Author: Swainson Holness*/
 
-/*Element for testing*/
-/*============================*/
-.box {
-    height: 140PX;
-    width: 140PX;
-    margin-top: 50PX;
-    margin-left: 00PX;
-    background-color: red;
-}
-
-.button {
-    margin-top: 50px;
-}
-/*============================*/
-
 /*wave-fx code*/
 .wave-fx {
     overflow: hidden;
@@ -23,7 +8,7 @@
 }
 
 .fab {
-    background-color: white;
+    background-color: slategrey;
     border-radius: 50%;
     height: 50px;
     width: 50px;
@@ -45,7 +30,6 @@
     animation-fill-mode: forwards;
     /*when the spec is finished*/
 }
-
 
 @keyframes ripple-animate {
     from {
